@@ -1,23 +1,24 @@
 *, *::after, *::before{
-    font-family: sans-serif;
-    font-size: 18px;
     box-sizing: border-box;
 }
 
 body{
-    background-color: rgba(154, 76, 39, 0.5);
+    background-color: rgba(216, 216, 216, 0.5);
+    font-family: sans-serif;
+    font-size: 12px;
 }
-
-
-
 
 
 /* MEDIA QUERIES PARA REALIZAR CAMBIOS REPONSIVE EN ALGUNAS PROPIEDADES */
-@media screen(min-widht:576px) {
-    
+@media (min-width: 576px) {
+    body{
+        font-size: 15px;
+    }
 }
 
-@media screen(min-widht:992px) {
-    
+@media (min-width: 992px) {
+    body{
+        font-size: 18px;
+    }
 }
 
